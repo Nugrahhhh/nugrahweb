@@ -4,5 +4,16 @@ html {
 
 body {
     background-color: black;
-    color:whitesmoke;
+    color:
+          whitesmoke;
 }
+a {color: yellow;}
+a:visited {
+           color: yellow;
+}
+
+a:hover, 
+a:active {
+                   color:
+                         #eee; 
+}     
