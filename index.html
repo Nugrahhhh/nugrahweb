@@ -46,6 +46,7 @@
 </head>
 <body>  
     <header>
+            <center>
 <img 
     src=
         "img/my_fb_bg_image.jpg" 
@@ -60,6 +61,8 @@
     loading=
             "lazy"
 >
+             </center>
+            <center>
             <nav 
                 aria-labelledby=
                                 "primary-navigation"
@@ -70,29 +73,28 @@
             >
              Primary Navigation
             </h2>
-                 <ul>
-                     <li>
+        </center>
+        <center>
+                <p>
                          <a 
                            href=
                                 "#Introduction"
                          >
                           Introduction
                          </a>
-                     </li>
-                     <li>
+ <br>                       
                          <a 
                            href=
                                 "#Planning"
                          >
                           My Plan for this web
                          </a>
-                     </li>
-                     <li>
+
                         <abbr 
                              title=
                                    "Facebook"
                         >
-
+<br>
                                              <a 
                                                href=
                                                      "https://www.facebook.com/Nugrahhhh/"
@@ -100,8 +102,7 @@
                                               My FB
                                              </a>
                         </abbr>
-                    </li>
-                    <li>
+<br>
                         <abbr 
                              title=
                                    "Instagram"
@@ -112,17 +113,22 @@
                                               >
                                                My IG
                                               </a>
-                          </abbr>                     
-                     </li>
-                </ul> 
+                          </abbr>    
+        </center>                 
+                </p>
           </nav> 
+   
         </header>
-        <hr>
+        
+<hr>
+
         <main>
+
 <section
 id=
    "Introduction"
 >
+<center>
          <h1>
              Hello from Indonesia
         </h1> 
@@ -136,7 +142,10 @@ id=
          </abbr>
                 5
         </p>
+
     </section>
+</center>
+<center>
         <img 
             src=
                 "img/html_logo.png"
@@ -151,25 +160,32 @@ id=
             loading=
                     "lazy"
         >
+    </center>
          <hr>
+
          <section>
+<center>
       <h2>
           This is my blog website that i used to learn html code
       </h2>
-      <ul>
-          <li>
-              Im using VS Code to learn
-          </li>
-      </ul>
-      <aside>
-             <details>
-                      <summary>
-                               Guess my <mark>favorite game</mark>
-                      </summary>
-                      <p>My Favorite games is Grand Theft Auto San Andreas</p>
-             </details>
-      </aside>
+</center>
+<aside>
+    <details>
+             <summary>
+                      Guess my <mark>favorite game</mark>
+             </summary>
+             <p>My Favorite games is Grand Theft Auto San Andreas</p>
+    </details>
+</aside>
+<center>
+        <p>
+           Im using VS Code to learn
+        </p>
+    </center>
+
     </section>
+
+    <center>
       <figure>
       <img 
           src=
@@ -188,7 +204,10 @@ id=
                   VS Code Application
       </figcaption>
     </figure>
+</center>
+
     <section>
+
           <h3>
               Sorry for my 
                           <strong>
@@ -224,138 +243,175 @@ id=
                freeCodeCamp.org
               </a>
               </abbr>
-            </p>
-                     <hr>
+             </p>
+
+<hr>
+
               <br>
 
                   <table>
                          <caption>
                              My holiday Schedule
                          </caption>
-                  <thead>
                   <tr>
-                         <th colspan="2">
-                             Time
-                         </th>
-                         <th>
-                             Activity
-                         </th>
-                         </tr>
-                  </thead>
-                  <tbody>
-                           <tr>
-                            <th>
-                               Morning
-                            </th>
-                          
-                                 <th>
-                                     <time 
-                                      datetime=
-                                               "07:00"
-                                 >
-                                  7am
-                                 </time>
-                                        -
-                                         <time
-                                              datetime=
-                                                       "12:00"
-                                         >
-                                          12pm 
-                                        </time>  
-                           </th>
-                                   <td>
-                                       Open Social Media
-                                   </td>
-                          </tr>
-                          <tr>
-                            
-                                <th>
-                                    Afternoon
-                                </th>
-                            
-                                    <th>
-                                <time 
-                                      datetime=
-                                               "13:00"
-                                 >
-                                  1pm
-                                 </time>
-                                        -
-                                         <time
-                                              datetime=
-                                                       "17:00"
-                                         >
-                                          5pm 
-                                        </time>  
-                                    </th>
-                                    <td>
-                                        Learning school subject
-                                    </td>
-                          </tr>
+                      <th
+                         id="time"
+                         scope=
+                               "col"
+                         colspan=
+                                 "2"
+                      >
+                       Time
+                      </th>
+                      <th
+                         id=
+                            "activity" 
+                         scope=
+                               "col"
+                      >
+                       Activity
+                      </th>
+                  </tr>
 
-                          <tr>
-                              <th>
-                                  Evening
-                              </th>
-                              <th>
-                                <time 
-                                      datetime=
-                                               "20:00"
-                                 >
-                                  8pm
-                                 </time>
-                                        -
-                                         <time
-                                              datetime=
-                                                       "22:00"
-                                         >
-                                          10pm 
-                                        </time>  
-                              </th>
-                                   <td>
-                                       Going Night Ride
-                                   </td>
-                          </tr>
-                       
-                        <tr>
-                            <tr>
-                               
-                                    <th>    
-                                    All Other Times
-                                    </th>
-                                   
-                                        <th>
-                                 Free Time
-                                </th>
+                  <tr>
+                  <th 
+                     id=
+                        "morning" 
+                     scope=
+                           "row"
+                  >
+                   Morning
+                  </th>
+                  <th>
+                      <time 
+                           datetime=
+                                    "07:00"
+                      >
+                       7am
+                      </time>
+                             -
+                              <time
+                                   datetime=
+                                            "12:00"
+                              >
+                               12pm 
+                              </time>  
+                  </th>
+                       <td>
+                           Open Social Media
+                       </td>
+                    </tr>
+
+                    <tr>
+                        <th
+                           id=
+                              "afternoon" 
+                           scope=
+                                 "row"
+                        >
+                         Afternoon
+                        </th>
+                        <th>
+                            <time 
+                                 datetime=
+                                          "13:00"
+                            >
+                             1pm
+                            </time>
+                                   -
+                                    <time
+                                         datetime=
+                                                  "17:00"
+                                    >
+                                     5pm 
+                                    </time>  
+                        </th>
                              <td>
-                                 Sleep
+                                 Learning school subject
                              </td>
-                         </tr>
-                         </tr>
-                    </tbody>
-                    <tfoot>
-                           <tr>
-                               <td 
-                                  colspan=
-                                          "3"
-                               >
-                                And that's what i do every holiday, 2 days a week.Just eat, playing games, and scrolling social media.  
-                            
-                           </tr>
-                    </tfoot>
+                    </tr>
+
+                    <tr>
+                        <th
+                           id=
+                              "evening" 
+                           scope=
+                                 "row"
+                        >
+                         Evening
+                        </th>
+
+                        <th>
+                            <time 
+                                 datetime=
+                                          "20:00"
+                            >
+                             8pm
+                            </time>
+                                   -
+                                    <time
+                                         datetime=
+                                                  "22:00"
+                                    >
+                                     10pm 
+                                    </time>  
+                        </th>
+
+                        <td>
+                            Going Night Ride
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th
+                           id=
+                              "othertime"
+                           scope=
+                                 "row"
+                        >    
+                         All Other Times
+                        </th>
+                        <th
+                           id=
+                              "freetime" 
+                           scope=
+                                 "row"
+                        >
+                         Free Time
+                        </th>
+                             <td 
+                                id=
+                                   "sleep"
+                             >
+                              Sleep
+                             </td>
+                    </tr>
+
+                    <tr>
+                        <td 
+                           colspan=
+                                   "3"
+                        >
+                         And that's what i do every holiday, 2 days a week.Just eat, playing games, and scrolling social media.  
+                    </tr>
+
                   </table>
+
     </section>
+
 <hr>
-<section
-        id=
-           "Planning"
->
-                     <p>
-                        To do:
-                     </p>
-        
+
+    <section
+            id=
+               "Planning"
+    >
+
+     <p>
+        To do:
+     </p>
 
 <ol>
+
     <li>
         Getting Started
     </li>
@@ -363,7 +419,7 @@ id=
         Adding a paraghraph and some unique text
     </li>
     <li>
-        A little desain improvement and hyperlink
+        A little design improvement and hyperlink
     </li>
     <li>
         Adding Images on website
@@ -377,37 +433,47 @@ id=
 </ol>
 
 <hr>
-      <h3>
-          There's also some testing code in this web page
-      </h3>
+
+    <h3>
+        There's also some testing code in this web page
+    </h3>
+
 <ul>
-       <li>
-             Don't make the mistake to let you down
-       </li>
-       <li>
+    
+    <li>
+        Don't make the mistake to let you down
+    </li>
+    <li>
              Composition 2
-       </li>
-       <li>
+    </li>
+    <li>
              Composition 3
-       </li>
+    </li>
        
 </ul>
+
 <figure>
-    <figcaption>
-                <p>
-                   An example of HTML code
-                <br>     
+        <figcaption>
+                    <p>
+                       An example of HTML code
+
+                    <br>
+
                     <code>
                           &lt;h1&gt;Hello world&lt;h1&gt;
                     </code>
-                </p>
+                    </p>
 </figcaption>
 </figure> 
+
 </section>
+
 <p>
       Being a stupid student is not a choice
 </p>
+
 <section>
+
 <h3>
         I like to learn a new things!
 </h3>
@@ -419,6 +485,7 @@ id=
     </h3>
 
 <dl>
+
 <dt>
     Description Text
 </dt>
@@ -434,11 +501,17 @@ id=
 <dd>
         Reswara
 </dd>
+
 </dl>
+
 </section>
-<hr> 
+
+<hr>
+
 </main>
+
 <footer>
+<center>
         <p>
            &lt;&lt;&lt;&copy;<a 
                                href=
@@ -456,6 +529,9 @@ id=
      Back to Top
     </a>
 </p>
+
+</center>
 </footer>
+
 </body>
 </html>
